@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.done{
+    margin-top: 80px;
+}
+
+h1{
+    padding-bottom:40px;
+    margin-left: 10px;
+}
+
+h2{
+    font-size: 50px;
+    margin-left: 10px;
+}
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border:10px solid white!important;
+    text-align: center;
+}
+
+#btn1:disabled{
+    background-color: red;
+}
+#btn2:disabled{
+    background-color: red;
+}
